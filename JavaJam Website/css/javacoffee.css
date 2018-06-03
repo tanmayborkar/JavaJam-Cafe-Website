@@ -1,0 +1,255 @@
+	/*Following is the css document for the JavaJam website. Site is made responsive through the css. Mobile devices of width less than 480 would get a block view of the website, while all other devices will be able to see a site similar to that of a desktop site*/
+		* {
+			box-sizing: border-box;	
+		}
+		
+		#wrapper {
+		  	width: 80%;
+	    	margin: auto;
+			background-image: url('../images/background.gif');
+		}
+
+		body {
+		  	font-family: Verdana;
+		 	background-color: #FCEBB6;
+		 	color: #221811;
+			box-shadow:3px 3px #888888;
+		}
+		
+		li a {
+			color: #FFF;
+			text-decoration: none;	
+		}
+
+		h1 {
+			margin: 0;
+			padding-left: 20px;
+			background-color: #D2B48C;
+			line-height: 300%;
+			font-size: 40px;
+		}
+		
+		h2 {
+			padding-left: 50px;
+		}
+		
+		h3 {
+			padding-left: 30px;
+			font-weight: bold;
+		}
+		
+		form{
+			padding: 2em;
+		}
+		
+		label {
+			display:block; 
+			float:left;
+			text-align:right; 
+			width:8em; 
+			padding-right:1em; 
+		}
+
+		input {
+			display:block;
+			margin-bottom:1em; 
+		}
+
+		textarea {
+			display:block;
+			margin-bottom:1em;
+			overflow-y: scroll;
+		}
+		
+		footer {
+			background-color: #D2B48C;
+			font-style: italic;
+			font-size: .60em;
+			clear: both;
+			border-top-style: solid;
+			border-width: 2px;
+			position:relative;
+			padding-bottom: 0.6px
+		}
+		
+		.img {
+			width: 100%;
+		}
+		
+		.img_top {
+			vertical-align: text-top;
+			width: auto;
+			margin-bottom: 20px;
+			padding-right:5px;
+		}
+
+		
+		
+		.h3_music {
+			background-color: #D2B48C;
+			border-bottom-color: #221A11;
+			border-bottom-style: solid;
+			border-width: 2px;
+		}
+		
+		.p_text {
+			padding-left: 40px;
+			font-weight: normal;
+		}
+		
+		.mnav_center {
+			padding: 20;
+		}
+		
+		
+		.center {
+			text-align: center;
+		}
+		
+		
+		.wrap {
+			display: table;
+		}
+
+		.left {	
+			float: none;
+			background-color: #221a11;
+			width: 15%;
+			text-align: center;
+			display: table-cell;
+			padding: 0px;
+			
+		}
+
+		.right {
+			float: none;
+			width: 85%;
+			background-color: #FCEBB6;
+			vertical-align: top;
+			display: table-cell;
+			padding-bottom: 20px;
+		}
+		
+		.div_img {
+			margin: auto;
+			width: 55%; 
+		}
+		
+		.p_jobs {
+			font-size: 15px;
+		}
+		
+		.div_form {
+			float: left;
+		}
+		
+		img.product {	
+			float: left;
+			padding: 0 10px 20px 10px;
+			width: 20%;
+		}
+		
+		p.product {
+			float: left;
+			padding: 0 0px 20px 0;
+		}
+		
+		.clearleft {
+			clear:	left;
+			margin:	1em;
+		}
+		
+		.prod_form {
+			padding-top: 30px;
+		}
+		
+		
+		#coffee_menu {
+			width: 90%;
+			padding-left: 40px;
+			border-collapse: collapse;
+			border: 0px;
+			margin-bottom: auto;
+		}
+		
+		.order_fieldset {
+			width: 60%;
+			margin:auto;
+		}
+		
+		td {
+			vertical-align: top;
+			
+		}
+		
+		#coffee_menu tr:nth-child(odd){background-color: #D2B48C;}
+		
+		#cartTable {
+			width: 40%;
+			padding-left: 40px;
+			border-collapse: collapse;
+			border: 0px;
+			margin-bottom: auto;
+		}
+		
+		#cartTable tr:nth-child(odd){background-color: #D2B48C;}
+		#cartTable tr:nth-child(even){background-color: #FFF0C1;}
+		
+		
+	/* Mobile display */	
+		@media only screen and (max-width: 480px) {
+			h1 {
+				font-size: 8vw;
+			}
+			
+			h2 {
+				padding-left:3em;
+				padding-right:2em; 
+			}
+			
+			h3 {
+				padding-left:3em;
+				padding-right:2em; 
+			}
+			
+
+			img{
+				width:200%;
+				display: block;
+			}
+			
+			.wrap {
+				display: block;
+			}
+			
+			.left {
+				width: 100%;
+				display: block;
+			}
+			
+			body {
+				display: block;
+			}
+			 .right: {
+				width: 100%;
+				display: block;
+			}
+			
+			#wrapper {
+				width:auto;
+			}
+			
+		}
+		
+		/* Tablet display */
+		@media only screen and (min-width: 600px) {
+			.img_top {
+				float: left;
+			}
+			.h3_music {
+				position: relative;
+			}
+			.div_img {
+				display: table;
+			}
+		}
