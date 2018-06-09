@@ -3,7 +3,7 @@ The JavaJam website developed in PHP using codeignitor. The website consists of 
 
 The website has the following functionalities:- 
 1. Get information such as merchandise and their respective prices from the database. 
-2. Store customer oline orders. 
+2. Store customer online orders. 
 3. Use of sessions to maintain carts.
 
 As the application is implemented using the codeignitor framework, the repository consists of certain default codeignitor files too.The actual application code is available in:-
